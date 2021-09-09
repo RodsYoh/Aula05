@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-repeat: repeat-y;
     position: absolute;
+    background-attachment: fixed;
 }
 .icons{
 position: absolute;

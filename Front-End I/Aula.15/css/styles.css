@@ -71,7 +71,11 @@ body {
   }
   @keyframes twinkle{
     0%{}
+<<<<<<< HEAD
     50%{transform:scale(140%) rotate(30deg);}
+=======
+      50%{transform:scale(140%) rotate(30deg);}
+>>>>>>> f03038f9f72f2ae78328ce74d94ff3b4ce67f8e9
     100%{transform: scale(100%);}
   }
   input:focus {

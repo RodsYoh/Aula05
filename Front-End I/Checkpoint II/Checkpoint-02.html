@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Checkpoint-02.css">
+    <title>Checkpoint 02</title>
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Ideias</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </header>
+    
+    <div class="centralizar">
+    <form action="/login" method="post" id="login">
+        <fieldset form="login"></fieldset>
+        <legend>Login de usuario</legend>
+        <h2>Login de Usuário</h2>
+            <div class="campo">
+                <label for="text">Nome</label>
+                <input type="text" name="text" id="text" placeholder="Seu nome" maxlength="100" required>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="campo">
+                <label for="phone">Telefone</label>
+                <input type="number" name="phone" id="phone" placeholder="Seu WhatsApp" max="11" required>
+            </div>
+            <div class="campo">
+                <label for="date">Data de Nascimento</label>
+                <input type="date" name="date" id="date" placeholder="Quando você nasceu?" required>
+            </div>
+            <h4>Você é maior de 18 anos?</h4>
+            <div class="campo" id="ano18">
+                <p><label for="maior18">Sim, sou maior de 18 Anos!</label><br>
+                <input type="radio" name="18anos" id="maior18" required></p>
+                <p><label for="menor18">Não, sou menor de 18 Anos!</label><br>
+                <input type="radio" name="18anos" id="menor18" required></p>
+            </div>
+            <h4>Selecione seu lugar preferido:</h4>
+            <div class="campo">
+                <label for="selecao">Melhores Lugares</label>
+                <select name="selecao" id="selecao" required>
+                    <option value=""> Selecione um ponto de interesse! </option>
+                    <option value="Obelisco">Obelisco</option>
+                    <option value="Ibirapuera">Ibirapuera</option>
+                    <option value="Cinema">Cinema</option>
+                </select>
+            </div>
+            <h4>Você veio à cidade como:</h4>
+            <div class="campo" id="interesses">
+                <label for="interesse1">Turista</label>
+                <input type="checkbox" name="interesse1" id="interesse1">
+                <label for="interesse2">Residente</label>
+                <input type="checkbox" name="interesse2" id="interesse2">
+                <label for="interesse3">Estudante</label>
+                <input type="checkbox" name="interesse3" id="interesse3">
+            </div>
+            <div>
+                <button id="botao-entrar" type="submit">ENVIAR</button>
+                <button id="botao-reset" type="reset">RESET</button>
+            </div>
+    </form>
+
+    <!--<a href="#">Esqueceu a sua senha?</a>
+    <div id="divisoria"></div>
+    <a href="#">Criar uma nova conta</a>
+    </div>-->
+
+</body>
+</html>

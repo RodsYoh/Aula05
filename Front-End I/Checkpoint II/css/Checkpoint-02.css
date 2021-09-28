@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+body{
+    padding: 15px;
+    margin: 30px 0;
+    background: #000;
+    background-image: url('../img/4474785.jpg');
+    background-size: cover;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: ivory;
+}
+
+header{
+    position: relative;
+}
+
+h4{
+    font-family: sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+#ano18{
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    display: inline-block;
+}
+
+fieldset{
+    display: none;
+}
+
+legend{
+    display: none;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    max-width: 400px;
+    min-width: 320px;
+    height: 60vh;
+    padding: 30px 30px 50px;
+    margin: 0;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgba(28, 28, 29, 0.5);
+}
+
+.campo{
+    display: flex;
+}
+
+.campo label{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+#ano18 label, #interesses label{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: rgb(202, 201, 201);
+    width: 50%;
+}
+
+input{
+    border: solid #666 1px;
+    background: transparent;
+    padding: 10px;
+    height: 20px;
+    width: 100%;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=date] {
+    border: solid #666 1px;
+    color: #888;
+}
+
+#botao-entrar{
+    border: solid #666 1px;
+    background: #222;
+    color: #888;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    transition: .5s ease;
+    margin-top: 10px;
+}
+
+#botao-entrar:hover{
+    background: #0c7797;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+#botao-reset{
+    border: solid #666 1px;
+    background: #222;
+    color: #888;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    transition: .5s ease;
+    margin-top: 5px;
+}
+
+#botao-reset:hover{
+    background: #0c7797;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+a{
+    font-family: sans-serif;
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    padding: 30px;
+}
+
+#divisoria{
+    border-bottom: solid #666 1px;
+    width: 40%;
+    max-width: 400px;
+    min-width: 320px;
+}
+#ano18 input[type=radio]{
+    margin-top: 10px;
+}

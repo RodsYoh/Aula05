@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkpoint I</title>
+</head>
+
+<body>
+    <div id="formulario">
+        <form>
+            <h1>. : Checkpoint 1 : .</h1>
+            <input type="text" placeholder="Nome do Pokémon" id="newName" required>
+            <input type="text" placeholder="URL da imagem" id="newImage" required>
+            <label for="newDescription">Descrição</label>
+            <textarea id="newDescription" name="newDescription" rows="5" maxlength="170" required></textarea>
+
+                <div id="cardType">
+                    <p>Escolha a cor da carta:<p>
+                        <div id="radios">
+                        <div>
+                        <input type="radio" name="cardType" id="blue" value="blue" checked>
+                        <label for="blue">Azul</label>
+                        </div>
+                        <div>
+                        <input type="radio" name="cardType" id="red" value="red">
+                        <label for="red">Vermelho</label>
+                        </div>
+                        <div>
+                        <input type="radio" name="cardType" id="green" value="green">
+                        <label for="green">Verde</label>
+                        </div>
+                        </div>
+                </div>
+            <button id="botao">Criar!</button>
+        </form>
+    </div>
+
+    <div class="container" id="colecao">
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background: url('./images/bgpkbll.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100vw;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+div {
+  border: 10px red;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  line-height: 1.5;
+  border-radius: 5px;
+  padding: 0 1% 1% 1%;
+  border: 0.2rem solid rgba(255, 255, 255, 0.192);
+  background-color: rgba(0, 0, 0, 0.75);
+  margin-top: 2%;
+}
+form h1{
+  text-align: center;
+}
+#newName, #newImage {
+  border-style: none;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 1% 0;
+  padding-left: 2%;
+}
+label, textarea {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+textarea {
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size:1.5rem;
+    border-style: none;
+    color: whitesmoke;
+    background-color: rgb(15, 170, 74);
+    cursor: pointer;
+}
+button:hover{
+  background-color: rgb(18, 194, 86);
+  transition: 300ms;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#radios{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blue{
+  background-color: rgb(26, 137, 228);
+  margin: 2%;
+  border-radius: 3%;
+  height: 40vh;
+  width: 25vh;
+  border: 5px solid black;
+}
+
+.red{
+  background-color: rgb(209, 53, 53);
+  margin: 2%;
+  border-radius: 3%;
+  height: 40vh;
+  width: 25vh;
+  border: 5px solid black;
+}
+.green{
+  background-color: rgb(31, 155, 62);
+  margin: 2%;
+  border-radius: 3%;
+  height: 40vh;
+  width: 25vh;
+  border: 5px solid black;
+}
+.cardName{
+  height:10%;
+  font-size: 1.3rem;
+  padding: 1% 5%;
+  font-weight: bolder;
+}
+.cardImage{
+  width: 100%;
+  height: 45%;
+  align-items: center;
+  justify-content: center;
+}
+.cardImage img{
+  width:inherit;
+  height: 100%;
+  object-fit: cover;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: white;
+}
+.cardDescription {
+  height: 50%;
+  font-size:1rem;
+  padding: 0% 5% 5% 5%;
+}
+.cardDescription p{
+  background-color: rgba(255, 255, 255, 0.541);
+  height: 80%;
+  border-radius: 2%;
+  padding: 2%;
+  margin-top:5%;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 901px) {
+  form {width:80vw;}
+  body {background-position: 0vh -50vh};
+  }
+

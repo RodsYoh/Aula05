@@ -1,0 +1,46 @@
+html{
+    font-size: calc(1em + 1vw);
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/img_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 45vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../img/img_parallax3.jpg");
+  
+    /* Set a specific height */
+    min-height: 45vh; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bloco{
+      padding: 0vh 5vw;
+      display: flex;
+      align-items: center;
+  }
+  .bloco1{
+      height: 22vh;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+  }
+#final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

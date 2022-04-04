@@ -1,0 +1,352 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header{
+    width: 950px;
+    text-align: left;
+    padding-bottom: 15px ;
+}
+
+header h1{
+    font-size: 3rem;
+    
+}
+
+header h3{
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px #aaaaaa75;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.titleLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titleLine input, .categoryCell select, .themeCell select, .textLine input {
+    border-style: hidden;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 8px;
+    height: 2.5rem;
+}
+
+.categoryLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categoryCell, .themeCell{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.textLine input{
+    height: 300px;
+    caret-color: black;
+    
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: rgb(99, 170, 29);
+    transition: 200ms;
+}
+
+.buttonArea{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+=======
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header{
+    width: 950px;
+    text-align: left;
+    padding-bottom: 15px ;
+}
+
+header h1{
+    font-size: 3rem;
+    
+}
+
+header h3{
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px #aaaaaa75;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.titleLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titleLine input, .categoryCell select, .themeCell select, .textLine input {
+    border-style: hidden;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 8px;
+    height: 2.5rem;
+}
+
+.categoryLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categoryCell, .themeCell{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.textLine input{
+    height: 300px;
+    caret-color: black;
+    
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: rgb(99, 170, 29);
+    transition: 200ms;
+}
+
+.buttonArea{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header{
+    width: 950px;
+    text-align: left;
+    padding-bottom: 15px ;
+}
+
+header h1{
+    font-size: 3rem;
+    
+}
+
+header h3{
+    font-weight: 300;
+    margin-top: -15px;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 2px #aaaaaa75;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.titleLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titleLine input, .categoryCell select, .themeCell select, .textLine input {
+    border-style: hidden;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    border-radius: 8px;
+    height: 2.5rem;
+}
+
+.categoryLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.categoryCell, .themeCell{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textLine{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.textLine input{
+    height: 300px;
+    caret-color: black;
+    
+}
+
+button{
+    background-color: green;
+    color: white;
+    border-style: none;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: rgb(99, 170, 29);
+    transition: 200ms;
+}
+
+.buttonArea{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+>>>>>>> a58a4be2a3b6b3146d65e84120e12b20ea8ab877
+>>>>>>> 9172f26830b2dc75aee888a06b918ad41cba1418
+}

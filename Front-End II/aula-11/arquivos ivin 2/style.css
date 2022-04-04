@@ -1,0 +1,64 @@
+<<<<<<< HEAD
+* {
+
+    outline: none;
+
+}
+
+input {
+
+    border: 1px solid black;
+
+}
+
+.controlador small {
+
+    color: red;
+    display: none;
+    font-size: 12px;
+
+}
+
+.controlador.erro input {
+
+    border-color: red;
+
+}
+
+.controlador.erro small {
+
+    display: block;
+
+=======
+* {
+
+    outline: none;
+
+}
+
+input {
+
+    border: 1px solid black;
+
+}
+
+.controlador small {
+
+    color: red;
+    display: none;
+    font-size: 12px;
+
+}
+
+.controlador.erro input {
+
+    border-color: red;
+
+}
+
+.controlador.erro small {
+
+    display: block;
+
+>>>>>>> a58a4be2a3b6b3146d65e84120e12b20ea8ab877
+}
